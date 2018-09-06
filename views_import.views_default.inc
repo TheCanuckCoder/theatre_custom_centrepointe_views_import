@@ -388,16 +388,6 @@ function views_import_views_default_views() {
   $handler->display->display_options['fields']['field_file_image_credit']['element_label_type'] = 'span';
   $handler->display->display_options['fields']['field_file_image_credit']['element_wrapper_class'] = 'action-btns';
   $handler->display->display_options['fields']['field_file_image_credit']['hide_empty'] = TRUE;
-  /* Field: Field: Organization */
-  $handler->display->display_options['fields']['field_organization']['id'] = 'field_organization';
-  $handler->display->display_options['fields']['field_organization']['table'] = 'field_data_field_organization';
-  $handler->display->display_options['fields']['field_organization']['field'] = 'field_organization';
-  $handler->display->display_options['fields']['field_organization']['label'] = '';
-  $handler->display->display_options['fields']['field_organization']['element_type'] = 'div';
-  $handler->display->display_options['fields']['field_organization']['element_class'] = 'button-group';
-  $handler->display->display_options['fields']['field_organization']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_organization']['type'] = 'taxonomy_term_reference_plain';
-  $handler->display->display_options['defaults']['sorts'] = FALSE;
   /* Sort criterion: Content: Max End Date (field_max_end_date) */
   $handler->display->display_options['sorts']['field_max_end_date_value']['id'] = 'field_max_end_date_value';
   $handler->display->display_options['sorts']['field_max_end_date_value']['table'] = 'field_data_field_max_end_date';
