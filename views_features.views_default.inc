@@ -2987,24 +2987,6 @@ return $uid;';
         ),
       ),
     ),
-    'field_presenter_type' => array(
-      'bef_format' => 'bef',
-      'more_options' => array(
-        'bef_select_all_none' => 0,
-        'bef_collapsible' => 0,
-        'is_secondary' => 0,
-        'any_label' => '',
-        'bef_filter_description' => '',
-        'tokens' => array(
-          'available' => array(
-            0 => 'global_types',
-          ),
-        ),
-        'rewrite' => array(
-          'filter_rewrite_values' => '',
-        ),
-      ),
-    ),
     'field_dates_field_preferred_dates_value_2' => array(
       'bef_format' => 'default',
       'more_options' => array(

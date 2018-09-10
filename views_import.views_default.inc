@@ -1632,12 +1632,11 @@ function views_import_views_default_views() {
     0 => 'field_block_link_1',
     1 => 'title',
     2 => 'field_organization',
-    3 => 'field_presenter_type',
-    4 => 'body',
-    5 => 'field_file_image_credit_et',
-    6 => 'field_dates_1',
-    7 => 'field_dates',
-    8 => 'field_no_date',
+    3 => 'body',
+    4 => 'field_file_image_credit_et',
+    5 => 'field_dates_1',
+    6 => 'field_dates',
+    7 => 'field_no_date',
   );
   $handler->display->display_options['fields']['fieldset_3']['fieldset']['type'] = 'div';
   $handler->display->display_options['fields']['fieldset_3']['fieldset']['classes'] = 'event-slider-title';
@@ -1672,16 +1671,6 @@ function views_import_views_default_views() {
   $handler->display->display_options['fields']['field_organization']['alter']['text'] = '[field_organization] Presents';
   $handler->display->display_options['fields']['field_organization']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_organization']['type'] = 'i18n_taxonomy_term_reference_plain';
-  /* Field: Content: Special Presentations */
-  $handler->display->display_options['fields']['field_presenter_type']['id'] = 'field_presenter_type';
-  $handler->display->display_options['fields']['field_presenter_type']['table'] = 'field_data_field_presenter_type';
-  $handler->display->display_options['fields']['field_presenter_type']['field'] = 'field_presenter_type';
-  $handler->display->display_options['fields']['field_presenter_type']['label'] = '';
-  $handler->display->display_options['fields']['field_presenter_type']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_presenter_type']['alter']['text'] = '<p>[field_organization]</p>';
-  $handler->display->display_options['fields']['field_presenter_type']['element_type'] = 'p';
-  $handler->display->display_options['fields']['field_presenter_type']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_presenter_type']['type'] = 'i18n_taxonomy_term_reference_plain';
   /* Field: Content: Body */
   $handler->display->display_options['fields']['body']['id'] = 'body';
   $handler->display->display_options['fields']['body']['table'] = 'field_data_body';
