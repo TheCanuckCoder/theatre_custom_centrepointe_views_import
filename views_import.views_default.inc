@@ -181,7 +181,7 @@ function views_import_views_default_views() {
   $handler->display->display_options['footer']['area']['id'] = 'area';
   $handler->display->display_options['footer']['area']['table'] = 'views';
   $handler->display->display_options['footer']['area']['field'] = 'area';
-  $handler->display->display_options['footer']['area']['content'] = '<a href="/calendar-field-collection-item-field-preferred-dates/month/2018-05?page=0" class="view-all-events btn btn-with-arrow" alt="View all events calendar">VIEW FULL EVENTS CALENDAR</a>';
+  $handler->display->display_options['footer']['area']['content'] = '<a href="/what-s-on" class="view-all-events btn btn-with-arrow" alt="View all events calendar">VIEW FULL EVENTS CALENDAR</a>';
   $handler->display->display_options['footer']['area']['format'] = 'filtered_html';
   $handler->display->display_options['footer']['area']['tokenize'] = TRUE;
   $handler->display->display_options['defaults']['relationships'] = FALSE;
